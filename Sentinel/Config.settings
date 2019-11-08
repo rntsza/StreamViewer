@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GauPoints" GeneratedClassName="Config">
+  <Profiles />
+  <Settings>
+    <Setting Name="BotToken" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Token what was generated on Twitch</Value>
+    </Setting>
+    <Setting Name="BotUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Name of your bot(your user)</Value>
+    </Setting>
+    <Setting Name="ChannelName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Name of channel what you want to ~watch~</Value>
+    </Setting>
+    <Setting Name="ClientID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ClientID what was generated on Twitch</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

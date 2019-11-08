@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GauPoints", "Sentinel\GauPoints.csproj", "{FDC15E5E-4712-401E-9E00-04F7BADB6420}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDC15E5E-4712-401E-9E00-04F7BADB6420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC15E5E-4712-401E-9E00-04F7BADB6420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC15E5E-4712-401E-9E00-04F7BADB6420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC15E5E-4712-401E-9E00-04F7BADB6420}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D638558-1FB3-4E4C-B1D0-9ED3AB5695FD}
+	EndGlobalSection
+EndGlobal
