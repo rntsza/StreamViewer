@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Sentinel {
+namespace GauPoints {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.9.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.2.0.0")]
     internal sealed partial class Config : global::System.Configuration.ApplicationSettingsBase {
         
         private static Config defaultInstance = ((Config)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Config())));
@@ -25,7 +25,7 @@ namespace Sentinel {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Token what was generated on Twitch")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string BotToken {
             get {
                 return ((string)(this["BotToken"]));
@@ -37,7 +37,7 @@ namespace Sentinel {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Name of your bot(your user)")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string BotUsername {
             get {
                 return ((string)(this["BotUsername"]));
@@ -49,7 +49,7 @@ namespace Sentinel {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Name of channel what you want to ~watch~")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string ChannelName {
             get {
                 return ((string)(this["ChannelName"]));

@@ -34,14 +34,14 @@ namespace GauPoints
 
             client.Connect();
 
-            api.Settings.ClientId = Config.Default.ClientID;
+            //ClientId = Config.Default.ClientID;
         }
 
         private void Client_OnMessageReceived(object sender, OnMessageReceivedArgs e)
         {
             if (e.ChatMessage.Message != null)
             {
-                Console.WriteLine("Teste");
+                Console.WriteLine("Working");
             } 
         }
 
