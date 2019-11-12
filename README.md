@@ -5,7 +5,7 @@ A primeira coisa que você precisa para começar a utilizar esse bot é, um toke
 Você pode gerar um em https://twitchtokengenerator.com/, basta conectar sua conta e escolher a opção de BotToken.
 Pronto,o site te deu um Token.
 
-Com o token em mãos, vá para página de releases, https://github.com/reegomes/Gaupoints-Farming/releases
+Com o token em mãos, vá para página de releases, https://github.com/reegomes/StreamViewer/releases
 Baixe o arquivo BotFarm.7z e extraia onde preferir.
 Em seguida, abra o GauPoints.exe.config num bloco de notas ou editor de texto que preferir.
 
