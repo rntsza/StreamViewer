@@ -3,16 +3,16 @@
   <Profiles />
   <Settings>
     <Setting Name="BotToken" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">ihxwij1czovpbgxasnpf84wyde1weh</Value>
     </Setting>
     <Setting Name="BotUsername" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">reegomes</Value>
     </Setting>
     <Setting Name="ChannelName" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">gaules</Value>
     </Setting>
     <Setting Name="ClientID" Type="System.String" Scope="User">
-      <Value Profile="(Default)">ClientID what was generated on Twitch</Value>
+      <Value Profile="(Default)">inawxdk7ublczaldhc86b519g4vjmw</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -25,7 +25,7 @@ namespace GauPoints {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("ihxwij1czovpbgxasnpf84wyde1weh")]
         public string BotToken {
             get {
                 return ((string)(this["BotToken"]));
@@ -37,7 +37,7 @@ namespace GauPoints {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("reegomes")]
         public string BotUsername {
             get {
                 return ((string)(this["BotUsername"]));
@@ -49,7 +49,7 @@ namespace GauPoints {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("gaules")]
         public string ChannelName {
             get {
                 return ((string)(this["ChannelName"]));
@@ -61,7 +61,7 @@ namespace GauPoints {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("ClientID what was generated on Twitch")]
+        [global::System.Configuration.DefaultSettingValueAttribute("inawxdk7ublczaldhc86b519g4vjmw")]
         public string ClientID {
             get {
                 return ((string)(this["ClientID"]));

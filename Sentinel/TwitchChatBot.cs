@@ -10,8 +10,9 @@ namespace GauPoints
     internal class TwitchChatBot
     {
         ConnectionCredentials credentials = new ConnectionCredentials(Config.Default.BotUsername, Config.Default.BotToken);
-        TwitchClient client;
+        public static TwitchClient client;
         TwitchAPI api = new TwitchAPI();
+        public static string Bet;
         
         public TwitchChatBot()
         {
@@ -35,15 +36,32 @@ namespace GauPoints
             client.Connect();
 
             //ClientId = Config.Default.ClientID;
+
+           
         }
 
+
+        //Não sei qual dos dois está funcionando, mas está funcionando, tenho que dormir.
         private void Client_OnMessageReceived(object sender, OnMessageReceivedArgs e)
         {
             if (e.ChatMessage.Message != null)
             {
                 Console.WriteLine("Working");
-            } 
+            }
+            else if (e.ChatMessage.Message.StartsWith("!bet", StringComparison.InvariantCultureIgnoreCase))
+            {
+                client.SendMessage(Config.Default.ChannelName, Bet);
+            }
         }
+        public static void Client_OnMessageSent(string bet)
+        {
+            if (bet.StartsWith("!bet", StringComparison.InvariantCultureIgnoreCase))
+            {
+                Console.WriteLine("Bet chegou");
+                client.SendMessage(Config.Default.ChannelName, $"{bet.ToString()}");
+            }
+        }
+        //
 
         TimeSpan? GetUpTime()
         {
@@ -79,5 +97,7 @@ namespace GauPoints
         {
             Console.WriteLine("Disconnecting");
         }
+
+
     }
 }
