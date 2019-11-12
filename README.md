@@ -1,5 +1,5 @@
-# Gaupoints-Farming
-Bot para farmar guapoints e outras streams
+# Stream Viewer and bets
+Bot para farmar guapoints e outras streams e fazer apostas nas mesmas
 
 A primeira coisa que você precisa para começar a utilizar esse bot é, um token da Twitch.
 Você pode gerar um em https://twitchtokengenerator.com/, basta conectar sua conta e escolher a opção de BotToken.
